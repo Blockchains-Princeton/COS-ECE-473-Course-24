@@ -41,12 +41,12 @@ The whole system consists of three smart contracts, each for one part.
 |SynthSwap | A Uniswap-like automated market maker (AMM) protocol |Part 3
 
 ## Testnet and wallet
-To deploy our contracts, we will use a public blockchain to deploy our smart contracts. In this part, we need to create some public accounts in **Goerli Testnet** and use **Metamask** to manage them.
+To deploy our contracts, we will use a public blockchain to deploy our smart contracts. In this part, we need to create some public accounts in **Sepolia Testnet** and use **Metamask** to manage them.
 
 0. You have done steps 1 to 3 already for your lab, just make sure they check out.
 1. Install [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) on Chrome, follow the instructions on the app to create a new wallet. After entering the correct phrases, a new account will be created automatically. You can create any number of accounts by clicking the upper right icon and *Create Account*.
-2. Switch to Goerli Testnet: click the *Ethereum Mainnet* at the top right corner of the wallet page and turn on the testnet list by setting *Show/hide test networks*. Switch the network to *Goerli Test Network*.
-3. Get some free ETH: go to a [faucet](https://goerlifaucet.com/) and enter your address, you will get 0.2 ETH for testing. You would have to create a free Alchemy account.
+2. Switch to Sepolia Testnet: click the *Ethereum Mainnet* at the top right corner of the wallet page and turn on the testnet list by setting *Show/hide test networks*. Switch the network to *Sepolia Testnet*.
+3. Get some free ETH: go to a [faucet](https://sepoliafaucet.com/) and enter your address, you will get 0.5 ETH for testing. You would have to create a free Alchemy account.
 4. Open [Remix](https://remix.ethereum.org/) in Chrome as well, in the *Deploy & run transactions* tab, set the environment to *Injected Web3*. This will launch a popup page to connect with your wallet.
 
 
