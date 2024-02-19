@@ -68,5 +68,6 @@ You will need to submit the addresses of your deployed contracts. Please make su
 
 Because this code will be used in later parts, make sure you are able to interact with your smart contracts. Test the main functionalities of the tokens like `transfer`, `transferFrom`, and `mint`, `burn` for sAsset. Note that we use [Access Control](https://docs.openzeppelin.com/contracts/4.x/access-control) in sAsset to govern who can mint and burn tokens. The contract creator can grant minter and burner roles to other accounts by calling the `grantRole` function. You can select different accounts under *Account* to test these functions.
 
+Submit the etherscan links to the 3 contracts to this form : https://forms.gle/GZRRX54Csodezbmt6 
 
  
