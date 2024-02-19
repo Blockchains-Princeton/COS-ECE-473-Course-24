@@ -16,7 +16,7 @@ TSLA / USD: 0x982B232303af1EFfB49939b81AD6866B2E4eeD0B
 BNB / USD: 0x7b219F57a8e9C7303204Af681e9fA69d17ef626f
 ```
 1. There is only one function defined in the interface, you are required to implement it to provide the requested information. You can design other parts of the contract as you like.
-2. Deploy the price feed contract for each asset, test the interface and copy their addresses. Once the deployment transactions are confirmed, you are able to find the deployed contracts in [etherscan](https://goerli.etherscan.io/) with https://goerli.etherscan.io/address/{:your_contract_address}.
+2. Deploy the price feed contract for each asset, test the interface and copy their addresses. Once the deployment transactions are confirmed, you are able to find the deployed contracts in [etherscan](https://sepolia.etherscan.io/) with https://sepolia.etherscan.io/address/{:your_contract_address}.
 
 ## Submission
-Submit the **etherscan links** to the two contracts to this form: [https://forms.gle/waxpAsmz8icZaGmj6](https://forms.gle/waxpAsmz8icZaGmj6).
+Submit the **etherscan links** to the two contracts to this form: [https://forms.gle/XH6gU7782Vn7dFEY8](https://forms.gle/XH6gU7782Vn7dFEY8).
