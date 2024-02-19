@@ -19,7 +19,7 @@ contract sAsset is ERC20, AccessControl {
         _mint(msg.sender, initialSupply * (10 ** uint256(decimals())));
         // Grant the contract deployer the default admin role: it will be able
         // to grant and revoke any roles
-        _setupRole(DEFAULT_ADMIN_ROLE, msg.sender);
+        _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
     }
 
     event mintToken(address to, uint256 amount);
