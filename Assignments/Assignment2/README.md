@@ -12,8 +12,8 @@ In this part, we will use one of the most popular oracle solutions, [Chainlink](
 We have provided the interface of the price feed smart contract in `interfaces/IPriceFeed.sol`, you need to implement your `PriceFeed.sol` and deploy one instance for each synthetic asset to provide their prices with respect to USD. You can refer to [this tutorial](https://docs.chain.link/docs/get-the-latest-price/) for help. The proxy addresses of each asset in Sepolia are provided below:
 
 ```
-TSLA / USD: 0x8b2B5BD7B87A088821970c0C33B818E90908F024
-BNB / USD: 0x0a9f5367De3eECdc55544ad46FfbCf8773810944
+TSLA / USD: 0xC32f0A9D70A34B9E7377C10FDAd88512596f61EA
+BNB / USD: 0x8A6af2B75F23831ADc973ce6288e5329F63D86c6
 ```
 1. There is only one function defined in the interface, you are required to implement it to provide the requested information. You can design other parts of the contract as you like.
 2. Deploy the price feed contract for each asset, test the interface and copy their addresses. Once the deployment transactions are confirmed, you are able to find the deployed contracts in [etherscan](https://sepolia.etherscan.io/) with https://sepolia.etherscan.io/address/{:your_contract_address}.
